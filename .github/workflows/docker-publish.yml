@@ -41,9 +41,9 @@ jobs:
             # 始终推送latest标签
             type=raw,value=latest
             # 当有semver格式的tag时，推送到对应的版本标签
-            type=semver,pattern={{version}},enable={{is_semver}}
-            type=semver,pattern={{major}}.{{minor}},enable={{is_semver}}
-            type=semver,pattern={{major}},enable={{is_semver}}
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
       
       # 构建并推送Docker镜像
       - name: Build and push
