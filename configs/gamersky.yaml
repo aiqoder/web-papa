@@ -1,0 +1,30 @@
+# 游民星空解析配置
+# 适用于游民星空游戏新闻页面
+
+title_selector: ".article-title"
+content_selector: ".article-content"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".sidebar-right"
+  - ".sidebar-left"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".news-tools"
+  - ".news-share"
+  - ".news-recommend"
+  - ".news-related"

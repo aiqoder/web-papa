@@ -1,0 +1,27 @@
+# 微信公众号解析配置
+# 针对微信公众号文章的特定规则
+
+title_selector: ".rich_media_title"
+content_selector: ".rich_media_content"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - ".advertisement"
+  - ".wechat-ad"
+  - ".ad-wrap"
+  - ".reward-area"
+  - ".like-area"
+  - ".copyright"
+  - ".profile_container"
+  - ".publish_time"
+  - ".rich_media_meta_list"
+  - ".avatar"
+  - ".author_name"
+  - ".wx_tap_link"
+  - ".footer_container"
+  - ".comment_list"
+  - ".like_comment"
+  - ".more_read"
+  - ".related_article"

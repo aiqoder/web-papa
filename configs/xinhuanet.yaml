@@ -1,0 +1,30 @@
+# 新华网解析配置
+# 适用于新华网新闻文章
+
+title_selector: ".main-title"
+content_selector: ".article-body"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".sidebar-right"
+  - ".sidebar-left"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".article-tools"
+  - ".article-share"
+  - ".article-recommend"
+  - ".article-related"

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web-crawler-api:
+    # 指定构建上下文和Dockerfile位置
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    # 容器名称
+    container_name: web-crawler-api
+    # 端口映射：主机端口:容器端口
+    ports:
+      - "8000:8000"
+    # 环境变量配置
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=Asia/Shanghai
+    # 重启策略
+    restart: unless-stopped
+    # 健康检查
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    # 日志配置
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

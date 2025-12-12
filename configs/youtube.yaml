@@ -1,0 +1,33 @@
+# YouTube解析配置
+# 适用于YouTube视频页面
+
+title_selector: ".title yt-formatted-string"
+content_selector: ".content"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".sidebar-right"
+  - ".sidebar-left"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".video-tools"
+  - ".video-share"
+  - ".video-recommend"
+  - ".video-related"
+  - ".play-button"
+  - ".video-ads"
+  - ".ytp-ad-module"

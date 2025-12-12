@@ -1,0 +1,32 @@
+# Coursera解析配置
+# 适用于Coursera课程页面
+
+title_selector: ".rc-CourseHero h1"
+content_selector: ".rc-CourseDescription"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".sidebar-right"
+  - ".sidebar-left"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".course-tools"
+  - ".course-share"
+  - ".course-recommend"
+  - ".course-related"
+  - ".enroll-button"
+  - ".price-container"

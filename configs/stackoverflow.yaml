@@ -1,0 +1,31 @@
+# Stack Overflow解析配置
+# 针对Stack Overflow问题页面的特定规则
+
+title_selector: ".question-hyperlink, #question-header h1"
+content_selector: ".question"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".left-sidebar"
+  - ".right-sidebar"
+  - ".aside"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".top-bar"
+  - ".site-header"
+  - ".site-footer"
+  - ".container-sidebar"

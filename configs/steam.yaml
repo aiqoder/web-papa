@@ -1,0 +1,32 @@
+# Steam解析配置
+# 适用于Steam游戏页面
+
+title_selector: ".apphub_AppName"
+content_selector: ".game_description_snippet"
+
+# 需要排除的元素CSS选择器
+exclude_selectors:
+  - "script"
+  - "style"
+  - "nav"
+  - "footer"
+  - "header"
+  - ".advertisement"
+  - ".ad"
+  - ".banner"
+  - ".popup"
+  - ".modal"
+  - ".cookie-banner"
+  - ".notification"
+  - ".sidebar"
+  - ".sidebar-right"
+  - ".sidebar-left"
+  - ".related-posts"
+  - ".comments"
+  - ".comment-section"
+  - ".game-tools"
+  - ".game-share"
+  - ".game-recommend"
+  - ".game-related"
+  - ".add-to-cart-button"
+  - ".price-container"
