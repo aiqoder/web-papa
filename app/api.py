@@ -36,38 +36,12 @@ class ParseRequest(BaseModel):
     可用的配置名称：
     - default: 默认配置，适用于大多数网站
     - 52pojie: 吾爱破解论坛配置
-    - 80211: 恩山无线论坛配置
     - bilibili: Bilibili配置
-    - coursera: Coursera配置
     - csdn: CSDN配置
-    - douyin: 抖音配置
-    - eastmoney: 东方财富配置
-    - gamersky: 游民星空配置
-    - github: GitHub配置
-    - hupu: 虎扑配置
-    - icourse163: 中国大学MOOC配置
-    - iqiyi: 爱奇艺配置
-    - jd: 京东配置
     - juejin: 掘金配置
-    - medium: Medium配置
-    - meituan: 美团配置
-    - open.163: 网易开放平台配置
-    - people: 人民网配置
     - right.com.cn: 恩山无线论坛配置
     - sinafinance: 新浪财经配置
-    - sports.qq.com: 腾讯体育配置
-    - sports.sina.com.cn: 新浪体育配置
-    - stackoverflow: Stack Overflow配置
-    - steam: Steam配置
-    - taobao: 淘宝配置
-    - taptap: TapTap配置
-    - thepaper: 澎湃新闻配置
-    - v.qq.com: 腾讯视频配置
     - wechat: 微信公众号配置
-    - weibo: 微博配置
-    - xinhuanet: 新华网配置
-    - xueqiu: 雪球配置
-    - youtube: YouTube配置
     - zhihu: 知乎配置
     """
 
@@ -104,38 +78,13 @@ async def parse_web_page(request: ParseRequest):
                 可用的配置名称：
                 - default: 默认配置，适用于大多数网站
                 - 52pojie: 吾爱破解论坛配置
-                - 80211: 恩山无线论坛配置
+                
                 - bilibili: Bilibili配置
-                - coursera: Coursera配置
                 - csdn: CSDN配置
-                - douyin: 抖音配置
-                - eastmoney: 东方财富配置
-                - gamersky: 游民星空配置
-                - github: GitHub配置
-                - hupu: 虎扑配置
-                - icourse163: 中国大学MOOC配置
-                - iqiyi: 爱奇艺配置
-                - jd: 京东配置
                 - juejin: 掘金配置
-                - medium: Medium配置
-                - meituan: 美团配置
-                - open.163: 网易开放平台配置
-                - people: 人民网配置
                 - right.com.cn: 恩山无线论坛配置
                 - sinafinance: 新浪财经配置
-                - sports.qq.com: 腾讯体育配置
-                - sports.sina.com.cn: 新浪体育配置
-                - stackoverflow: Stack Overflow配置
-                - steam: Steam配置
-                - taobao: 淘宝配置
-                - taptap: TapTap配置
-                - thepaper: 澎湃新闻配置
-                - v.qq.com: 腾讯视频配置
                 - wechat: 微信公众号配置
-                - weibo: 微博配置
-                - xinhuanet: 新华网配置
-                - xueqiu: 雪球配置
-                - youtube: YouTube配置
                 - zhihu: 知乎配置
         
     Returns:

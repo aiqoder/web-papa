@@ -187,7 +187,7 @@ exclude_selectors:               # 排除的选择器
 
 - `default` - 默认配置，适用于大多数网站
 - `52pojie` - 吾爱破解论坛配置
-- `80211` - 恩山无线论坛配置
+
 - `bilibili` - Bilibili配置
 - `coursera` - Coursera配置
 - `csdn` - CSDN配置
@@ -300,28 +300,3 @@ python test_wechat.py
 - 检查端口是否被占用
 - 确保所有依赖已正确安装
 - 查看日志输出，定位错误原因
-
-## 贡献指南
-
-欢迎提交Issue和Pull Request！
-
-1. Fork本仓库
-2. 创建特性分支：`git checkout -b feature/AmazingFeature`
-3. 提交更改：`git commit -m 'Add some AmazingFeature'`
-4. 推送到分支：`git push origin feature/AmazingFeature`
-5. 提交Pull Request
-
-## 许可证
-
-本项目采用MIT许可证，详见[LICENSE](LICENSE)文件。
-
-## 联系方式
-
-如有问题或建议，欢迎通过以下方式联系：
-
-- Email: your-email@example.com
-- GitHub: [your-github-username](https://github.com/your-github-username)
-
----
-
-**Web Crawler API** - 让网页内容获取更简单！

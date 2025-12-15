@@ -70,18 +70,16 @@ class ConfigManager:
             
             # 域名到配置名称的映射
             domain_mapping = {
-                "www.right.com.cn": "80211",
-                "right.com.cn": "80211",
-                "www.52pojie.cn": "52pojie",
-                "52pojie.cn": "52pojie",
-                "juejin.cn": "juejin",
-                "www.juejin.cn": "juejin",
-                "csdn.net": "csdn",
-                "www.csdn.net": "csdn",
-                "zhihu.com": "zhihu",
-                "www.zhihu.com": "zhihu",
-                "mp.weixin.qq.com": "wechat"
-            }
+            "www.52pojie.cn": "52pojie",
+            "52pojie.cn": "52pojie",
+            "juejin.cn": "juejin",
+            "www.juejin.cn": "juejin",
+            "csdn.net": "csdn",
+            "www.csdn.net": "csdn",
+            "zhihu.com": "zhihu",
+            "www.zhihu.com": "zhihu",
+            "mp.weixin.qq.com": "wechat"
+        }
             
             # 检查域名映射
             if domain in domain_mapping:
